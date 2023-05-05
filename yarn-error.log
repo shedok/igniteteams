@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/max/.nvm/versions/node/v12.16.1/bin/node /Users/max/.nvm/versions/node/v12.16.1/bin/yarnpkg install
+
+PATH: 
+  /Users/max/.nvm/versions/node/v12.16.1/bin:/Users/max/.zplugin/polaris/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/apache-maven/apache-maven-3.6.3/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/expo: tunneling socket could not be established, cause=socket hang up
+      at ClientRequest.onError (/Users/max/.nvm/versions/node/v12.16.1/lib/node_modules/yarn/lib/cli.js:152249:17)
+      at Object.onceWrapper (events.js:418:26)
+      at ClientRequest.emit (events.js:311:20)
+      at Socket.socketOnEnd (_http_client.js:460:9)
+      at Socket.emit (events.js:323:22)
+      at endReadableNT (_stream_readable.js:1204:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "igniteteams",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.15",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0",
+      "@types/react": "~18.0.14",
+      "typescript": "^4.9.4"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
